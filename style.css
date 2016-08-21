@@ -1,0 +1,298 @@
+@import url(https://fonts.googleapis.com/css?family=Covered+By+Your+Grace);
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+  font-family: 'Covered By Your Grace', cursive;
+  line-height: 1.5;
+  /*margin: 0 auto;
+  padding: 0;*/
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+  background: #fff;
+  font-size: 1.5em;
+}
+.covervid-wrapper {
+	width: 100%;
+	height: 573px;
+	position: relative;
+	text-align: center;
+	/*background: red;*/
+}
+  .general-wrapper {
+    position: relative;
+    font-size: 42px;
+  }
+
+  h2 {
+    font-size: 48px;
+    text-align: center;
+  }
+
+  /*VIDEO HEADER*/
+
+
+	/*#Container {
+		width: 100%; height: 360px; position: relative;
+	}
+	#Video,#Message {
+		width: 100%; height: 360px; position: absolute; top: 0; left: 0;
+	}*/
+
+  .header {
+    text-align: center;
+    letter-spacing: 25px;
+    font-size: 72px;
+		padding-bottom: 150px;
+		color: #ffffff;
+
+  }
+  .logo {
+    /*position: relative;*/
+    /*padding-top: -40px;*/
+		margin-top: 140px;
+  }
+
+  /*END VIDEO HEADER*/
+
+
+  /*HOW IT WORKS*/
+  #how-it-works {
+    color: #118c85;
+		padding-top: 70px;
+  }
+  .how-it-works {
+    text-align: center;
+  }
+  .what-is-next {
+    padding-bottom: 75px;
+    margin: 0;
+  }
+  .ring {
+    list-style: none;
+    display: inline;
+    padding-left: 21%;
+  }
+  .enroll {
+    list-style: none;
+    display: inline;
+    padding-left: 14%;
+  }
+  .learn {
+    list-style: none;
+    display: inline;
+    padding-left: 16%;
+  }
+  /*END HOW IT WORKS*/
+
+
+  /*ABOUT ME*/
+  #about-me {
+    background: #63d4d5;
+    color: #fff;
+  }
+  .jazzie {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    margin-left: 42%;
+    margin-top: 100px;
+  }
+
+  .bio-p1 {
+    text-align: left;
+    margin-left: 125px;
+    margin-right: 125px;
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+  .bio-p2 {
+    text-align: left;
+    margin-left: 125px;
+    margin-right: 125px;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 75px;
+  }
+  .bio-p3 {
+    text-align: center;
+    padding-bottom: 75px;
+  }
+  /*END ABOUT ME*/
+
+
+/*CURRENTLY TEACHING*/
+#currently-teaching {
+  background: #6dea6d;
+  color: #fff;
+}
+.currently {
+  padding-top: 75px;
+}
+.instruments {
+  list-style: none;
+  display: inline;
+}
+.instruments img {
+  width: 150px;
+  overflow: hidden;
+  margin: 0 auto;
+  padding-left: 18%;
+}
+.instruments-names li {
+  list-style: none;
+  display: inline;
+  margin: 0 auto;
+  padding-left: 20%;
+}
+.instruments-names {
+  padding-bottom: 75px;
+}
+/*END CURRENTLY TEACHING*/
+
+
+/*PRICING*/
+#pricing {
+  background: #3e4eb8;
+  color: #fff;
+  height: 400px;
+  width: 100%;
+  padding-bottom: 100px;
+}
+.pricing {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.unicorn {
+  width: 250px;
+  margin-top: -85px;
+  margin-left: 35%;
+  float: left;
+}
+.cost-amount {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.cost-amount li {
+  float: left;
+  text-align: center;
+  padding-left: 5%;
+}
+
+/*END PRICING*/
+
+
+/*INTERESTED?*/
+#interested {
+  color: #3e4eb8;
+  text-align: center;
+  padding-bottom: 25px;
+}
+.for-more-questions {
+  text-align: center;
+  padding-top: 50px;
+}
+/*END INTERESTED?*/
+
+
+/*SOCIAL MEDIA*/
+#social-media {
+  background: #8b3eea;
+  color: #fff;
+}
+.social {
+  text-align: center;
+  padding-top: 75px;
+  padding-bottom: 45px;
+}
+.social-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  padding-bottom: 75px;
+  }
+.social-list img {
+  width: 75px;
+  height: 75px;
+}
+.social-list li {
+  list-style: none;
+  display: inline;
+}
+.social-list li a {
+  text-decoration: none;
+}
+.instagram {
+  padding-left: 46%;
+}
+.youtube {
+  padding-left: 15px;
+}
+
+/*END SOCIAL MEDIA*/
+
+
+/*FOOTER*/
+#footer {
+  font: #3e4eb8;
+  text-align: center;
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  margin-top: 75px;
+}
+.footer {
+  padding-bottom: 30px;
+}
+/*END FOOTER*/
