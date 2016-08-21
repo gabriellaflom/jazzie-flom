@@ -1,11 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Covered+By+Your+Grace);
 @import url(https://fonts.googleapis.com/css?family=Roboto);
 
-/* http://meyerweb.com/eric/tools/css/reset/
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
+/* ==========================================================================
+   Reset
+   ========================================================================== */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -50,6 +48,10 @@ table {
 	border-spacing: 0;
 }
 
+
+/* ==========================================================================
+   Common
+   ========================================================================== */
 body {
   font-family: 'Covered By Your Grace', cursive;
   line-height: 1.5;
@@ -67,111 +69,101 @@ body {
 	height: 573px;
 	position: relative;
 	text-align: center;
-	/*background: red;*/
 }
-  .general-wrapper {
-    position: relative;
-    font-size: 42px;
-  }
+.general-wrapper {
+  position: relative;
+  font-size: 42px;
+}
 
-  h2 {
-    font-size: 48px;
-    text-align: center;
-  }
+h2 {
+  font-size: 48px;
+  text-align: center;
+}
 
-  /*VIDEO HEADER*/
+/* ==========================================================================
+   Video Header
+   ========================================================================== */
+.header {
+  text-align: center;
+  letter-spacing: 25px;
+  font-size: 72px;
+	padding-bottom: 150px;
+	color: #ffffff;
 
+}
+.logo {
+	margin-top: 140px;
+}
 
-	/*#Container {
-		width: 100%; height: 360px; position: relative;
-	}
-	#Video,#Message {
-		width: 100%; height: 360px; position: absolute; top: 0; left: 0;
-	}*/
+/* ==========================================================================
+   How it Works
+   ========================================================================== */
+#how-it-works {
+  color: #118c85;
+	padding-top: 70px;
+}
+.how-it-works {
+  text-align: center;
+}
+.what-is-next {
+  padding-bottom: 75px;
+  margin: 0;
+}
+.ring {
+  list-style: none;
+  display: inline;
+  padding-left: 21%;
+}
+.enroll {
+  list-style: none;
+  display: inline;
+  padding-left: 14%;
+}
+.learn {
+  list-style: none;
+  display: inline;
+  padding-left: 16%;
+}
 
-  .header {
-    text-align: center;
-    letter-spacing: 25px;
-    font-size: 72px;
-		padding-bottom: 150px;
-		color: #ffffff;
+/* ==========================================================================
+ About Me
+ ========================================================================== */
+#about-me {
+  background: #63d4d5;
+  color: #fff;
+}
+.jazzie {
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  margin-left: 42%;
+  margin-top: 100px;
+}
 
-  }
-  .logo {
-    /*position: relative;*/
-    /*padding-top: -40px;*/
-		margin-top: 140px;
-  }
-
-  /*END VIDEO HEADER*/
-
-
-  /*HOW IT WORKS*/
-  #how-it-works {
-    color: #118c85;
-		padding-top: 70px;
-  }
-  .how-it-works {
-    text-align: center;
-  }
-  .what-is-next {
-    padding-bottom: 75px;
-    margin: 0;
-  }
-  .ring {
-    list-style: none;
-    display: inline;
-    padding-left: 21%;
-  }
-  .enroll {
-    list-style: none;
-    display: inline;
-    padding-left: 14%;
-  }
-  .learn {
-    list-style: none;
-    display: inline;
-    padding-left: 16%;
-  }
-  /*END HOW IT WORKS*/
-
-
-  /*ABOUT ME*/
-  #about-me {
-    background: #63d4d5;
-    color: #fff;
-  }
-  .jazzie {
-    border-radius: 50%;
-    width: 250px;
-    height: 250px;
-    margin-left: 42%;
-    margin-top: 100px;
-  }
-
-  .bio-p1 {
-    text-align: left;
-    margin-left: 125px;
-    margin-right: 125px;
-    padding-left: 15%;
-    padding-right: 15%;
-  }
-  .bio-p2 {
-    text-align: left;
-    margin-left: 125px;
-    margin-right: 125px;
-    padding-left: 15%;
-    padding-right: 15%;
-    padding-bottom: 75px;
-  }
-  .bio-p3 {
-    text-align: center;
-    padding-bottom: 75px;
-  }
-  /*END ABOUT ME*/
+.bio-p1 {
+  text-align: left;
+  margin-left: 125px;
+  margin-right: 125px;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+.bio-p2 {
+  text-align: left;
+  margin-left: 125px;
+  margin-right: 125px;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-bottom: 75px;
+}
+.bio-p3 {
+  text-align: center;
+  padding-bottom: 75px;
+}
 
 
-/*CURRENTLY TEACHING*/
+/* ==========================================================================
+   Currently Teaching
+   ========================================================================== */
 #currently-teaching {
   background: #6dea6d;
   color: #fff;
@@ -198,10 +190,11 @@ body {
 .instruments-names {
   padding-bottom: 75px;
 }
-/*END CURRENTLY TEACHING*/
 
 
-/*PRICING*/
+/* ==========================================================================
+   Pricing
+   ========================================================================== */
 #pricing {
   background: #3e4eb8;
   color: #fff;
@@ -230,10 +223,10 @@ body {
   padding-left: 5%;
 }
 
-/*END PRICING*/
 
-
-/*INTERESTED?*/
+/* ==========================================================================
+   Interested In?
+   ========================================================================== */
 #interested {
   color: #3e4eb8;
   text-align: center;
@@ -243,10 +236,10 @@ body {
   text-align: center;
   padding-top: 50px;
 }
-/*END INTERESTED?*/
 
-
-/*SOCIAL MEDIA*/
+/* ==========================================================================
+   Social Media
+   ========================================================================== */
 #social-media {
   background: #8b3eea;
   color: #fff;
@@ -281,10 +274,10 @@ body {
   padding-left: 15px;
 }
 
-/*END SOCIAL MEDIA*/
 
-
-/*FOOTER*/
+/* ==========================================================================
+   Footer
+   ========================================================================== */
 #footer {
   font: #3e4eb8;
   text-align: center;
@@ -295,4 +288,3 @@ body {
 .footer {
   padding-bottom: 30px;
 }
-/*END FOOTER*/
